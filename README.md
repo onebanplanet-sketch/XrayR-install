@@ -6,8 +6,6 @@
 
 ## 一键安装
 
-文件上传到上述仓库的 `main` 分支后，使用服务器 **root 用户**执行下面的一条命令即可。仓库地址已填好；若分支不是 `main`，需要修改命令中的分支名。
-
 ```bash
 curl -fL https://raw.githubusercontent.com/Onebanplanet-sketch/XrayR-install/main/install.sh -o XrayR-install.sh && bash XrayR-install.sh
 ```
