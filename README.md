@@ -4,10 +4,6 @@
 
 适用于使用 **systemd 的 64 位 Linux**：Debian、Ubuntu，以及使用 yum/dnf 的 CentOS、Rocky Linux、AlmaLinux 等。支持 x86_64、ARM64、s390x；不支持 FreeBSD、Windows、Alpine/OpenRC 或普通 Docker 容器。老系统若软件源已失效，需先解决软件源问题。
 
-## 上传 GitHub
-
-将本文件夹内的 `install.sh`、`README.md`、`LICENSE`、`UPSTREAM.md` 和 `.gitattributes` 上传到 [Onebanplanet-sketch/XrayR-install](https://github.com/Onebanplanet-sketch/XrayR-install) 的**公开仓库根目录**，分支使用 `main`。无需上传 XrayR 可执行文件、源码包或 FreeBSD 压缩包。
-
 ## 一键安装
 
 文件上传到上述仓库的 `main` 分支后，使用服务器 **root 用户**执行下面的一条命令即可。仓库地址已填好；若分支不是 `main`，需要修改命令中的分支名。
